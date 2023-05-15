@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+/* 
+        Typical Device Breakpoints 
+------------------------------------------------
+    Small Screens: até 600px
+    Mobile devices: 601px - 768px
+    Tablet, Ipad: 769ox - 992px
+    laptops and desktops: 993px - 1200px
+    TV, Extra Large Screens: 1201px and more
+------------------------------------------------
+*/
+
+/* 
+                Mobile First
+@media screen and (min-width: 600px) and (max-width: 768px){
+    
+} 
+*/
+
+/* Tablets */
+
+@media screen and (min-width:768px) and (max-width: 992px) {
+    body, html {
+        background-image: url(../images/tela-de-fundo.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .login {
+        width: 80vw;
+
+    }
+    
+    .image {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    .form {
+        float: right;
+        width: 70%;
+        padding-top: 100px;
+
+    }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 992px)  {
+    body, html {
+        background-image: url(../images/tela-de-fundo.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .login {
+        width: 980px;
+    }
+
+    .image {
+        float: left;
+        width: 50%;
+        height: 100%;
+
+    }
+
+    .form {
+        float: right;
+        width: 50%;
+        padding-top: 100px;
+
+    }
+}
