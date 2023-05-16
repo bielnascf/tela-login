@@ -26,18 +26,18 @@
                     <div class="container-infos">
                         <div class="container-email">
                             <label for="iemail"><span class="material-symbols-outlined" id="icon-email">mail</span></label>
-                            <input type="email" name="email" id="iemail" placeholder="Digite o seu email" size="26" required>
+                            <input type="email" name="email" id="iemail" placeholder="Digite o seu email" size="26" maxlength="30" required>
                         </div>
                         <div class="container-password">
                             <label for="ipassword"><span class="material-symbols-outlined" id="icon-password">key</span></label>
-                            <input type="password" name="password" id="ipassword" placeholder="Digite a sua senha" min="8" max="15" size="26" required>
+                            <input type="password" name="password" id="ipassword" placeholder="Digite a sua senha" minlength="8" maxlength="15" size="26" required>
                         </div>
                     </div>
                     <div class="container-submit">
                         <input type="submit" value="Entrar">
                     </div>
                     <div class="container-recovery">
-                        <input type="reset" value="Esqueci minha senha">
+                        <a href="#" class="recovery">Esqueci Minha Senha<span class="material-symbols-outlined" id="icon-email">mail</span></a>
                     </div>
                 </form>
             </div>
